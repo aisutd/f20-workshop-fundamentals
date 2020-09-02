@@ -1,0 +1,22 @@
+[flake8]
+max-line-length = 80
+# Default for select: E123/E133, E226 and E241/E242
+select =
+    C,
+    E,
+    F,
+    W,
+    B,
+    B950
+ignore =
+    E203,
+    E501,
+    W503,
+    F401
+exclude =
+    .git,
+    __pycache__,
+    docs/source/conf.py,
+    old,
+    build,
+    dist
